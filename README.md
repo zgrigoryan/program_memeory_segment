@@ -92,10 +92,10 @@ g++ main.cpp -o main
 This program uses `matplotlib` library in python to create visual plots. 
 
 This plot shows the segments when compiling with -O0 flag
-[Memory-Layout](diagrams/memory_layout.png)
+![Memory-Layout](diagrams/memory_layout.png)
 
 This plot shows the differences of _TEXT section between -O0 and -O2 flags: 
-[Text-Size-Comparison](diagrams/text_size_comparison.png)
+![Text-Size-Comparison](diagrams/text_size_comparison.png)
 
 
 ## 🧰 Commands Used for Analysis
