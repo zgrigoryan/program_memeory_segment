@@ -60,17 +60,19 @@ In case of *objdump*, there is already difference visible. For example, just sim
 - `otool`
 For *otool* there are address and size differences, for instance: 
 
-| -O0       | -O2                                           |
-|------------|-------------------------------------------------------|
-| Load command 18
+#### -O0 
+Load command 18
       cmd LC_CODE_SIGNATURE
   cmdsize 16
   dataoff 59264
- datasize 608    | Load command 18
+ datasize 608    
+
+#### -O2
+Load command 18
       cmd LC_CODE_SIGNATURE
   cmdsize 16
   dataoff 53344
- datasize 576 |
+ datasize 576 
 
 ---
 ## 🧪 Build & Run 
