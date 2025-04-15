@@ -1,0 +1,178 @@
+objdump -t memory_layout_O2
+
+memory_layout_O2:       file format mach-o arm64
+
+SYMBOL TABLE:
+0000000100000688  w    F __TEXT,__text .hidden __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+00000001000007f4  w    F __TEXT,__text .hidden __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+0000000100000998  w    F __TEXT,__text .hidden ___clang_call_terminate
+00000001000009a8  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+00000001000009bc  w    F __TEXT,__text .hidden __ZNSt3__120__throw_length_errorB8ne190102EPKc
+0000000100000a0c  w    F __TEXT,__text .hidden __ZNSt12length_errorC1B8ne190102EPKc
+0000000100000b2c l     O __TEXT,__gcc_except_tab GCC_except_table1
+0000000100000b40 l     O __TEXT,__gcc_except_tab GCC_except_table2
+0000000100000b84 l     O __TEXT,__gcc_except_tab GCC_except_table3
+0000000100000b9c l     O __TEXT,__gcc_except_tab GCC_except_table6
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/zara/Desktop/cppstuff/program_memeory_segment/
+0000000000000000      d  *UND* main.cpp
+0000000067fe8911      d  *UND* /var/folders/cr/pqmqf1fn5v38vgf81pm0gkhw0000gn/T/main-50078c.o
+00000001000005d0      d  *UND* 
+00000001000005d0      d  *UND* __Z4funcv
+0000000000000004      d  *UND* 
+00000001000005d0      d  *UND* 
+00000001000005d4      d  *UND* 
+00000001000005d4      d  *UND* _main
+00000000000000b4      d  *UND* 
+00000001000005d4      d  *UND* 
+0000000100000688      d  *UND* 
+0000000100000688      d  *UND* __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+000000000000016c      d  *UND* 
+0000000100000688      d  *UND* 
+00000001000007f4      d  *UND* 
+00000001000007f4      d  *UND* __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+00000000000001a4      d  *UND* 
+00000001000007f4      d  *UND* 
+0000000100000998      d  *UND* 
+0000000100000998      d  *UND* ___clang_call_terminate
+0000000000000010      d  *UND* 
+0000000100000998      d  *UND* 
+00000001000009a8      d  *UND* 
+00000001000009a8      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+0000000000000014      d  *UND* 
+00000001000009a8      d  *UND* 
+00000001000009bc      d  *UND* 
+00000001000009bc      d  *UND* __ZNSt3__120__throw_length_errorB8ne190102EPKc
+0000000000000050      d  *UND* 
+00000001000009bc      d  *UND* 
+0000000100000a0c      d  *UND* 
+0000000100000a0c      d  *UND* __ZNSt12length_errorC1B8ne190102EPKc
+0000000000000024      d  *UND* 
+0000000100000a0c      d  *UND* 
+0000000000000000      d  *UND* _global_var_initialized
+0000000000000000      d  *UND* _msg
+0000000000000000      d  *UND* _global_var_uninitialized
+0000000000000000      d  *UND* 
+00000001000005d0 g     F __TEXT,__text __Z4funcv
+0000000100000000 g     F __TEXT,__text __mh_execute_header
+0000000100008000 g     O __DATA,__data _global_var_initialized
+0000000100008010 g     O __DATA,__common _global_var_uninitialized
+00000001000005d4 g     F __TEXT,__text _main
+0000000100008008 g     O __DATA,__data _msg
+0000000000000000         *UND* __Unwind_Resume
+0000000000000000         *UND* __ZNKSt3__16locale9use_facetERNS0_2idE
+0000000000000000         *UND* __ZNKSt3__18ios_base6getlocEv
+0000000000000000         *UND* __ZNSt11logic_errorC2EPKc
+0000000000000000         *UND* __ZNSt12length_errorD1Ev
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+0000000000000000         *UND* __ZNSt3__14coutE
+0000000000000000         *UND* __ZNSt3__15ctypeIcE2idE
+0000000000000000         *UND* __ZNSt3__16localeD1Ev
+0000000000000000         *UND* __ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv
+0000000000000000         *UND* __ZNSt3__18ios_base5clearEj
+0000000000000000         *UND* __ZSt9terminatev
+0000000000000000         *UND* __ZTISt12length_error
+0000000000000000         *UND* __ZTVSt12length_error
+0000000000000000         *UND* __ZdlPv
+0000000000000000         *UND* __Znwm
+0000000000000000         *UND* ___cxa_allocate_exception
+0000000000000000         *UND* ___cxa_begin_catch
+0000000000000000         *UND* ___cxa_end_catch
+0000000000000000         *UND* ___cxa_free_exception
+0000000000000000         *UND* ___cxa_throw
+0000000000000000         *UND* ___gxx_personality_v0
+0000000000000000         *UND* _memset
+0000000000000000         *UND* _strlen
+
+
+objdump -t build/memory_initialized_O2
+
+build/memory_initialized_O2:    file format mach-o arm64
+
+SYMBOL TABLE:
+0000000100000688  w    F __TEXT,__text .hidden __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+00000001000007f4  w    F __TEXT,__text .hidden __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+0000000100000998  w    F __TEXT,__text .hidden ___clang_call_terminate
+00000001000009a8  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+00000001000009bc  w    F __TEXT,__text .hidden __ZNSt3__120__throw_length_errorB8ne190102EPKc
+0000000100000a0c  w    F __TEXT,__text .hidden __ZNSt12length_errorC1B8ne190102EPKc
+0000000100000b2c l     O __TEXT,__gcc_except_tab GCC_except_table1
+0000000100000b40 l     O __TEXT,__gcc_except_tab GCC_except_table2
+0000000100000b84 l     O __TEXT,__gcc_except_tab GCC_except_table3
+0000000100000b9c l     O __TEXT,__gcc_except_tab GCC_except_table6
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/zara/Desktop/cppstuff/program_memeory_segment/
+0000000000000000      d  *UND* main.cpp
+0000000067fe9046      d  *UND* /var/folders/cr/pqmqf1fn5v38vgf81pm0gkhw0000gn/T/main-e53166.o
+00000001000005d0      d  *UND* 
+00000001000005d0      d  *UND* __Z4funcv
+0000000000000004      d  *UND* 
+00000001000005d0      d  *UND* 
+00000001000005d4      d  *UND* 
+00000001000005d4      d  *UND* _main
+00000000000000b4      d  *UND* 
+00000001000005d4      d  *UND* 
+0000000100000688      d  *UND* 
+0000000100000688      d  *UND* __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+000000000000016c      d  *UND* 
+0000000100000688      d  *UND* 
+00000001000007f4      d  *UND* 
+00000001000007f4      d  *UND* __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+00000000000001a4      d  *UND* 
+00000001000007f4      d  *UND* 
+0000000100000998      d  *UND* 
+0000000100000998      d  *UND* ___clang_call_terminate
+0000000000000010      d  *UND* 
+0000000100000998      d  *UND* 
+00000001000009a8      d  *UND* 
+00000001000009a8      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+0000000000000014      d  *UND* 
+00000001000009a8      d  *UND* 
+00000001000009bc      d  *UND* 
+00000001000009bc      d  *UND* __ZNSt3__120__throw_length_errorB8ne190102EPKc
+0000000000000050      d  *UND* 
+00000001000009bc      d  *UND* 
+0000000100000a0c      d  *UND* 
+0000000100000a0c      d  *UND* __ZNSt12length_errorC1B8ne190102EPKc
+0000000000000024      d  *UND* 
+0000000100000a0c      d  *UND* 
+0000000000000000      d  *UND* _global_var_initialized
+0000000000000000      d  *UND* _msg
+0000000000000000      d  *UND* _global_var_uninitialized
+0000000000000000      d  *UND* 
+00000001000005d0 g     F __TEXT,__text __Z4funcv
+0000000100000000 g     F __TEXT,__text __mh_execute_header
+0000000100008000 g     O __DATA,__data _global_var_initialized
+0000000100008010 g     O __DATA,__common _global_var_uninitialized
+00000001000005d4 g     F __TEXT,__text _main
+0000000100008008 g     O __DATA,__data _msg
+0000000000000000         *UND* __Unwind_Resume
+0000000000000000         *UND* __ZNKSt3__16locale9use_facetERNS0_2idE
+0000000000000000         *UND* __ZNKSt3__18ios_base6getlocEv
+0000000000000000         *UND* __ZNSt11logic_errorC2EPKc
+0000000000000000         *UND* __ZNSt12length_errorD1Ev
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+0000000000000000         *UND* __ZNSt3__14coutE
+0000000000000000         *UND* __ZNSt3__15ctypeIcE2idE
+0000000000000000         *UND* __ZNSt3__16localeD1Ev
+0000000000000000         *UND* __ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv
+0000000000000000         *UND* __ZNSt3__18ios_base5clearEj
+0000000000000000         *UND* __ZSt9terminatev
+0000000000000000         *UND* __ZTISt12length_error
+0000000000000000         *UND* __ZTVSt12length_error
+0000000000000000         *UND* __ZdlPv
+0000000000000000         *UND* __Znwm
+0000000000000000         *UND* ___cxa_allocate_exception
+0000000000000000         *UND* ___cxa_begin_catch
+0000000000000000         *UND* ___cxa_end_catch
+0000000000000000         *UND* ___cxa_free_exception
+0000000000000000         *UND* ___cxa_throw
+0000000000000000         *UND* ___gxx_personality_v0
+0000000000000000         *UND* _memset
+0000000000000000         *UND* _strlen

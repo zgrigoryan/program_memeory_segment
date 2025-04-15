@@ -1,0 +1,12 @@
+size memory_layout_O0
+
+__TEXT  __DATA  __OBJC  others  dec     hex
+16384   16384   0       4295000064      4295032832      100010000
+
+
+
+size build/memory_initialized_O0
+
+__TEXT  __DATA  __OBJC  others  dec     hex
+16384   16384   0       4295000064      4295032832      100010000
+

@@ -1,0 +1,557 @@
+objdump -t memory_layout_O0
+
+memory_layout_O0:       file format mach-o arm64
+
+SYMBOL TABLE:
+000000010000064c  w    F __TEXT,__text .hidden __ZNSt3__1lsB8ne190102INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+0000000100000694  w    F __TEXT,__text .hidden __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ne190102EPFRS3_S4_E
+00000001000006c0  w    F __TEXT,__text .hidden __ZNSt3__14endlB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+0000000100000714  w    F __TEXT,__text .hidden __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+00000001000008f8  w    F __TEXT,__text .hidden __ZNSt3__111char_traitsIcE6lengthB8ne190102EPKc
+000000010000091c  w    F __TEXT,__text .hidden __ZNKSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentrycvbB8ne190102Ev
+0000000100000938  w    F __TEXT,__text .hidden __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+0000000100000b4c  w    F __TEXT,__text .hidden __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC1B8ne190102ERNS_13basic_ostreamIcS2_EE
+0000000100000b80  w    F __TEXT,__text .hidden __ZNKSt3__18ios_base5flagsB8ne190102Ev
+0000000100000b98  w    F __TEXT,__text .hidden __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillB8ne190102Ev
+0000000100000bfc  w    F __TEXT,__text .hidden __ZNKSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEE6failedB8ne190102Ev
+0000000100000c1c  w    F __TEXT,__text .hidden __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE8setstateB8ne190102Ej
+0000000100000c48  w    F __TEXT,__text .hidden ___clang_call_terminate
+0000000100000c58  w    F __TEXT,__text .hidden __ZNKSt3__18ios_base5widthB8ne190102Ev
+0000000100000c70  w    F __TEXT,__text .hidden __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5sputnB8ne190102EPKcl
+0000000100000cac  w    F __TEXT,__text .hidden __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Emc
+0000000100000ce8  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4dataB8ne190102Ev
+0000000100000d10  w    F __TEXT,__text .hidden __ZNSt3__18ios_base5widthB8ne190102El
+0000000100000d3c  w    F __TEXT,__text .hidden __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
+0000000100000d88  w    F __TEXT,__text .hidden __ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC1B8ne190102INS_18__default_init_tagESA_EEOT_OT0_
+0000000100000dc4  w    F __TEXT,__text .hidden __ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC2B8ne190102INS_18__default_init_tagESA_EEOT_OT0_
+0000000100000e00  w    F __TEXT,__text .hidden __ZNSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EEC2B8ne190102ENS_18__default_init_tagE
+0000000100000e14  w    F __TEXT,__text .hidden __ZNSt3__122__compressed_pair_elemINS_9allocatorIcEELi1ELb1EEC2B8ne190102ENS_18__default_init_tagE
+0000000100000e40  w    F __TEXT,__text .hidden __ZNSt3__19allocatorIcEC2B8ne190102Ev
+0000000100000e6c  w    F __TEXT,__text .hidden __ZNSt3__116__non_trivial_ifILb1ENS_9allocatorIcEEEC2B8ne190102Ev
+0000000100000e80  w    F __TEXT,__text .hidden __ZNSt3__112__to_addressB8ne190102IKcEEPT_S3_
+0000000100000e94  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE13__get_pointerB8ne190102Ev
+0000000100000ee8  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__is_longB8ne190102Ev
+0000000100000f1c  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE18__get_long_pointerB8ne190102Ev
+0000000100000f44  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE19__get_short_pointerB8ne190102Ev
+0000000100000f6c  w    F __TEXT,__text .hidden __ZNKSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_E5firstB8ne190102Ev
+0000000100000f90  w    F __TEXT,__text .hidden __ZNKSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EE5__getB8ne190102Ev
+0000000100000fa4  w    F __TEXT,__text .hidden __ZNSt3__114pointer_traitsIPKcE10pointer_toB8ne190102ERS1_
+0000000100000fb8  w    F __TEXT,__text .hidden __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC2B8ne190102ERNS_13basic_ostreamIcS2_EE
+000000010000100c  w    F __TEXT,__text .hidden __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5rdbufB8ne190102Ev
+0000000100001030  w    F __TEXT,__text .hidden __ZNKSt3__18ios_base5rdbufB8ne190102Ev
+0000000100001048  w    F __TEXT,__text .hidden __ZNKSt3__118_SentinelValueFillINS_11char_traitsIcEEE8__is_setB8ne190102Ev
+0000000100001080  w    F __TEXT,__text .hidden __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ne190102Ec
+0000000100001100  w    F __TEXT,__text .hidden __ZNSt3__118_SentinelValueFillINS_11char_traitsIcEEEaSB8ne190102Ei
+0000000100001120  w    F __TEXT,__text .hidden __ZNKSt3__118_SentinelValueFillINS_11char_traitsIcEEE5__getB8ne190102Ev
+0000000100001138  w    F __TEXT,__text .hidden __ZNSt3__111char_traitsIcE3eofB8ne190102Ev
+0000000100001140  w    F __TEXT,__text .hidden __ZNSt3__19use_facetB8ne190102INS_5ctypeIcEEEERKT_RKNS_6localeE
+000000010000116c  w    F __TEXT,__text .hidden __ZNKSt3__15ctypeIcE5widenB8ne190102Ec
+00000001000011a0  w    F __TEXT,__text .hidden __ZNSt3__18ios_base8setstateB8ne190102Ej
+00000001000011d4  w    F __TEXT,__text .hidden __ZNSt3__118__constexpr_strlenB8ne190102IcEEmPKT_
+00000001000012d0 l     O __TEXT,__gcc_except_tab GCC_except_table5
+0000000100001304 l     O __TEXT,__gcc_except_tab GCC_except_table8
+000000010000131c l     O __TEXT,__gcc_except_tab GCC_except_table35
+000000010000132c l     O __TEXT,__gcc_except_tab GCC_except_table39
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/zara/Desktop/cppstuff/program_memeory_segment/
+0000000000000000      d  *UND* main.cpp
+0000000067fe88fa      d  *UND* /var/folders/cr/pqmqf1fn5v38vgf81pm0gkhw0000gn/T/main-4cb6fc.o
+00000001000005d0      d  *UND* 
+00000001000005d0      d  *UND* __Z4funcv
+0000000000000004      d  *UND* 
+00000001000005d0      d  *UND* 
+00000001000005d4      d  *UND* 
+00000001000005d4      d  *UND* _main
+0000000000000078      d  *UND* 
+00000001000005d4      d  *UND* 
+000000010000064c      d  *UND* 
+000000010000064c      d  *UND* __ZNSt3__1lsB8ne190102INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+0000000000000048      d  *UND* 
+000000010000064c      d  *UND* 
+0000000100000694      d  *UND* 
+0000000100000694      d  *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ne190102EPFRS3_S4_E
+000000000000002c      d  *UND* 
+0000000100000694      d  *UND* 
+00000001000006c0      d  *UND* 
+00000001000006c0      d  *UND* __ZNSt3__14endlB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+0000000000000054      d  *UND* 
+00000001000006c0      d  *UND* 
+0000000100000714      d  *UND* 
+0000000100000714      d  *UND* __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+00000000000001e4      d  *UND* 
+0000000100000714      d  *UND* 
+00000001000008f8      d  *UND* 
+00000001000008f8      d  *UND* __ZNSt3__111char_traitsIcE6lengthB8ne190102EPKc
+0000000000000024      d  *UND* 
+00000001000008f8      d  *UND* 
+000000010000091c      d  *UND* 
+000000010000091c      d  *UND* __ZNKSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentrycvbB8ne190102Ev
+000000000000001c      d  *UND* 
+000000010000091c      d  *UND* 
+0000000100000938      d  *UND* 
+0000000100000938      d  *UND* __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+0000000000000214      d  *UND* 
+0000000100000938      d  *UND* 
+0000000100000b4c      d  *UND* 
+0000000100000b4c      d  *UND* __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC1B8ne190102ERNS_13basic_ostreamIcS2_EE
+0000000000000034      d  *UND* 
+0000000100000b4c      d  *UND* 
+0000000100000b80      d  *UND* 
+0000000100000b80      d  *UND* __ZNKSt3__18ios_base5flagsB8ne190102Ev
+0000000000000018      d  *UND* 
+0000000100000b80      d  *UND* 
+0000000100000b98      d  *UND* 
+0000000100000b98      d  *UND* __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillB8ne190102Ev
+0000000000000064      d  *UND* 
+0000000100000b98      d  *UND* 
+0000000100000bfc      d  *UND* 
+0000000100000bfc      d  *UND* __ZNKSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEE6failedB8ne190102Ev
+0000000000000020      d  *UND* 
+0000000100000bfc      d  *UND* 
+0000000100000c1c      d  *UND* 
+0000000100000c1c      d  *UND* __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE8setstateB8ne190102Ej
+000000000000002c      d  *UND* 
+0000000100000c1c      d  *UND* 
+0000000100000c48      d  *UND* 
+0000000100000c48      d  *UND* ___clang_call_terminate
+0000000000000010      d  *UND* 
+0000000100000c48      d  *UND* 
+0000000100000c58      d  *UND* 
+0000000100000c58      d  *UND* __ZNKSt3__18ios_base5widthB8ne190102Ev
+0000000000000018      d  *UND* 
+0000000100000c58      d  *UND* 
+0000000100000c70      d  *UND* 
+0000000100000c70      d  *UND* __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5sputnB8ne190102EPKcl
+000000000000003c      d  *UND* 
+0000000100000c70      d  *UND* 
+0000000100000cac      d  *UND* 
+0000000100000cac      d  *UND* __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Emc
+000000000000003c      d  *UND* 
+0000000100000cac      d  *UND* 
+0000000100000ce8      d  *UND* 
+0000000100000ce8      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4dataB8ne190102Ev
+0000000000000028      d  *UND* 
+0000000100000ce8      d  *UND* 
+0000000100000d10      d  *UND* 
+0000000100000d10      d  *UND* __ZNSt3__18ios_base5widthB8ne190102El
+000000000000002c      d  *UND* 
+0000000100000d10      d  *UND* 
+0000000100000d3c      d  *UND* 
+0000000100000d3c      d  *UND* __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
+000000000000004c      d  *UND* 
+0000000100000d3c      d  *UND* 
+0000000100000d88      d  *UND* 
+0000000100000d88      d  *UND* __ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC1B8ne190102INS_18__default_init_tagESA_EEOT_OT0_
+000000000000003c      d  *UND* 
+0000000100000d88      d  *UND* 
+0000000100000dc4      d  *UND* 
+0000000100000dc4      d  *UND* __ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC2B8ne190102INS_18__default_init_tagESA_EEOT_OT0_
+000000000000003c      d  *UND* 
+0000000100000dc4      d  *UND* 
+0000000100000e00      d  *UND* 
+0000000100000e00      d  *UND* __ZNSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EEC2B8ne190102ENS_18__default_init_tagE
+0000000000000014      d  *UND* 
+0000000100000e00      d  *UND* 
+0000000100000e14      d  *UND* 
+0000000100000e14      d  *UND* __ZNSt3__122__compressed_pair_elemINS_9allocatorIcEELi1ELb1EEC2B8ne190102ENS_18__default_init_tagE
+000000000000002c      d  *UND* 
+0000000100000e14      d  *UND* 
+0000000100000e40      d  *UND* 
+0000000100000e40      d  *UND* __ZNSt3__19allocatorIcEC2B8ne190102Ev
+000000000000002c      d  *UND* 
+0000000100000e40      d  *UND* 
+0000000100000e6c      d  *UND* 
+0000000100000e6c      d  *UND* __ZNSt3__116__non_trivial_ifILb1ENS_9allocatorIcEEEC2B8ne190102Ev
+0000000000000014      d  *UND* 
+0000000100000e6c      d  *UND* 
+0000000100000e80      d  *UND* 
+0000000100000e80      d  *UND* __ZNSt3__112__to_addressB8ne190102IKcEEPT_S3_
+0000000000000014      d  *UND* 
+0000000100000e80      d  *UND* 
+0000000100000e94      d  *UND* 
+0000000100000e94      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE13__get_pointerB8ne190102Ev
+0000000000000054      d  *UND* 
+0000000100000e94      d  *UND* 
+0000000100000ee8      d  *UND* 
+0000000100000ee8      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__is_longB8ne190102Ev
+0000000000000034      d  *UND* 
+0000000100000ee8      d  *UND* 
+0000000100000f1c      d  *UND* 
+0000000100000f1c      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE18__get_long_pointerB8ne190102Ev
+0000000000000028      d  *UND* 
+0000000100000f1c      d  *UND* 
+0000000100000f44      d  *UND* 
+0000000100000f44      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE19__get_short_pointerB8ne190102Ev
+0000000000000028      d  *UND* 
+0000000100000f44      d  *UND* 
+0000000100000f6c      d  *UND* 
+0000000100000f6c      d  *UND* __ZNKSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_E5firstB8ne190102Ev
+0000000000000024      d  *UND* 
+0000000100000f6c      d  *UND* 
+0000000100000f90      d  *UND* 
+0000000100000f90      d  *UND* __ZNKSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EE5__getB8ne190102Ev
+0000000000000014      d  *UND* 
+0000000100000f90      d  *UND* 
+0000000100000fa4      d  *UND* 
+0000000100000fa4      d  *UND* __ZNSt3__114pointer_traitsIPKcE10pointer_toB8ne190102ERS1_
+0000000000000014      d  *UND* 
+0000000100000fa4      d  *UND* 
+0000000100000fb8      d  *UND* 
+0000000100000fb8      d  *UND* __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC2B8ne190102ERNS_13basic_ostreamIcS2_EE
+0000000000000054      d  *UND* 
+0000000100000fb8      d  *UND* 
+000000010000100c      d  *UND* 
+000000010000100c      d  *UND* __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5rdbufB8ne190102Ev
+0000000000000024      d  *UND* 
+000000010000100c      d  *UND* 
+0000000100001030      d  *UND* 
+0000000100001030      d  *UND* __ZNKSt3__18ios_base5rdbufB8ne190102Ev
+0000000000000018      d  *UND* 
+0000000100001030      d  *UND* 
+0000000100001048      d  *UND* 
+0000000100001048      d  *UND* __ZNKSt3__118_SentinelValueFillINS_11char_traitsIcEEE8__is_setB8ne190102Ev
+0000000000000038      d  *UND* 
+0000000100001048      d  *UND* 
+0000000100001080      d  *UND* 
+0000000100001080      d  *UND* __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ne190102Ec
+0000000000000080      d  *UND* 
+0000000100001080      d  *UND* 
+0000000100001100      d  *UND* 
+0000000100001100      d  *UND* __ZNSt3__118_SentinelValueFillINS_11char_traitsIcEEEaSB8ne190102Ei
+0000000000000020      d  *UND* 
+0000000100001100      d  *UND* 
+0000000100001120      d  *UND* 
+0000000100001120      d  *UND* __ZNKSt3__118_SentinelValueFillINS_11char_traitsIcEEE5__getB8ne190102Ev
+0000000000000018      d  *UND* 
+0000000100001120      d  *UND* 
+0000000100001138      d  *UND* 
+0000000100001138      d  *UND* __ZNSt3__111char_traitsIcE3eofB8ne190102Ev
+0000000000000008      d  *UND* 
+0000000100001138      d  *UND* 
+0000000100001140      d  *UND* 
+0000000100001140      d  *UND* __ZNSt3__19use_facetB8ne190102INS_5ctypeIcEEEERKT_RKNS_6localeE
+000000000000002c      d  *UND* 
+0000000100001140      d  *UND* 
+000000010000116c      d  *UND* 
+000000010000116c      d  *UND* __ZNKSt3__15ctypeIcE5widenB8ne190102Ec
+0000000000000034      d  *UND* 
+000000010000116c      d  *UND* 
+00000001000011a0      d  *UND* 
+00000001000011a0      d  *UND* __ZNSt3__18ios_base8setstateB8ne190102Ej
+0000000000000034      d  *UND* 
+00000001000011a0      d  *UND* 
+00000001000011d4      d  *UND* 
+00000001000011d4      d  *UND* __ZNSt3__118__constexpr_strlenB8ne190102IcEEmPKT_
+0000000000000024      d  *UND* 
+00000001000011d4      d  *UND* 
+0000000000000000      d  *UND* _global_var_initialized
+0000000000000000      d  *UND* _msg
+0000000000000000      d  *UND* _global_var_uninitialized
+0000000000000000      d  *UND* 
+00000001000005d0 g     F __TEXT,__text __Z4funcv
+0000000100000000 g     F __TEXT,__text __mh_execute_header
+0000000100008000 g     O __DATA,__data _global_var_initialized
+0000000100008010 g     O __DATA,__common _global_var_uninitialized
+00000001000005d4 g     F __TEXT,__text _main
+0000000100008008 g     O __DATA,__data _msg
+0000000000000000         *UND* __Unwind_Resume
+0000000000000000         *UND* __ZNKSt3__16locale9use_facetERNS0_2idE
+0000000000000000         *UND* __ZNKSt3__18ios_base6getlocEv
+0000000000000000         *UND* __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEmc
+0000000000000000         *UND* __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+0000000000000000         *UND* __ZNSt3__14coutE
+0000000000000000         *UND* __ZNSt3__15ctypeIcE2idE
+0000000000000000         *UND* __ZNSt3__16localeD1Ev
+0000000000000000         *UND* __ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv
+0000000000000000         *UND* __ZNSt3__18ios_base5clearEj
+0000000000000000         *UND* __ZSt9terminatev
+0000000000000000         *UND* __ZdlPv
+0000000000000000         *UND* __Znwm
+0000000000000000         *UND* ___cxa_begin_catch
+0000000000000000         *UND* ___cxa_end_catch
+0000000000000000         *UND* ___gxx_personality_v0
+0000000000000000         *UND* _strlen
+
+
+
+objdump -t build/memory_initialized_O0
+
+build/memory_initialized_O0:    file format mach-o arm64
+
+SYMBOL TABLE:
+000000010000064c  w    F __TEXT,__text .hidden __ZNSt3__1lsB8ne190102INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+0000000100000694  w    F __TEXT,__text .hidden __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ne190102EPFRS3_S4_E
+00000001000006c0  w    F __TEXT,__text .hidden __ZNSt3__14endlB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+0000000100000714  w    F __TEXT,__text .hidden __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+00000001000008f8  w    F __TEXT,__text .hidden __ZNSt3__111char_traitsIcE6lengthB8ne190102EPKc
+000000010000091c  w    F __TEXT,__text .hidden __ZNKSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentrycvbB8ne190102Ev
+0000000100000938  w    F __TEXT,__text .hidden __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+0000000100000b4c  w    F __TEXT,__text .hidden __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC1B8ne190102ERNS_13basic_ostreamIcS2_EE
+0000000100000b80  w    F __TEXT,__text .hidden __ZNKSt3__18ios_base5flagsB8ne190102Ev
+0000000100000b98  w    F __TEXT,__text .hidden __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillB8ne190102Ev
+0000000100000bfc  w    F __TEXT,__text .hidden __ZNKSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEE6failedB8ne190102Ev
+0000000100000c1c  w    F __TEXT,__text .hidden __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE8setstateB8ne190102Ej
+0000000100000c48  w    F __TEXT,__text .hidden ___clang_call_terminate
+0000000100000c58  w    F __TEXT,__text .hidden __ZNKSt3__18ios_base5widthB8ne190102Ev
+0000000100000c70  w    F __TEXT,__text .hidden __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5sputnB8ne190102EPKcl
+0000000100000cac  w    F __TEXT,__text .hidden __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Emc
+0000000100000ce8  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4dataB8ne190102Ev
+0000000100000d10  w    F __TEXT,__text .hidden __ZNSt3__18ios_base5widthB8ne190102El
+0000000100000d3c  w    F __TEXT,__text .hidden __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
+0000000100000d88  w    F __TEXT,__text .hidden __ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC1B8ne190102INS_18__default_init_tagESA_EEOT_OT0_
+0000000100000dc4  w    F __TEXT,__text .hidden __ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC2B8ne190102INS_18__default_init_tagESA_EEOT_OT0_
+0000000100000e00  w    F __TEXT,__text .hidden __ZNSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EEC2B8ne190102ENS_18__default_init_tagE
+0000000100000e14  w    F __TEXT,__text .hidden __ZNSt3__122__compressed_pair_elemINS_9allocatorIcEELi1ELb1EEC2B8ne190102ENS_18__default_init_tagE
+0000000100000e40  w    F __TEXT,__text .hidden __ZNSt3__19allocatorIcEC2B8ne190102Ev
+0000000100000e6c  w    F __TEXT,__text .hidden __ZNSt3__116__non_trivial_ifILb1ENS_9allocatorIcEEEC2B8ne190102Ev
+0000000100000e80  w    F __TEXT,__text .hidden __ZNSt3__112__to_addressB8ne190102IKcEEPT_S3_
+0000000100000e94  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE13__get_pointerB8ne190102Ev
+0000000100000ee8  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__is_longB8ne190102Ev
+0000000100000f1c  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE18__get_long_pointerB8ne190102Ev
+0000000100000f44  w    F __TEXT,__text .hidden __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE19__get_short_pointerB8ne190102Ev
+0000000100000f6c  w    F __TEXT,__text .hidden __ZNKSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_E5firstB8ne190102Ev
+0000000100000f90  w    F __TEXT,__text .hidden __ZNKSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EE5__getB8ne190102Ev
+0000000100000fa4  w    F __TEXT,__text .hidden __ZNSt3__114pointer_traitsIPKcE10pointer_toB8ne190102ERS1_
+0000000100000fb8  w    F __TEXT,__text .hidden __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC2B8ne190102ERNS_13basic_ostreamIcS2_EE
+000000010000100c  w    F __TEXT,__text .hidden __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5rdbufB8ne190102Ev
+0000000100001030  w    F __TEXT,__text .hidden __ZNKSt3__18ios_base5rdbufB8ne190102Ev
+0000000100001048  w    F __TEXT,__text .hidden __ZNKSt3__118_SentinelValueFillINS_11char_traitsIcEEE8__is_setB8ne190102Ev
+0000000100001080  w    F __TEXT,__text .hidden __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ne190102Ec
+0000000100001100  w    F __TEXT,__text .hidden __ZNSt3__118_SentinelValueFillINS_11char_traitsIcEEEaSB8ne190102Ei
+0000000100001120  w    F __TEXT,__text .hidden __ZNKSt3__118_SentinelValueFillINS_11char_traitsIcEEE5__getB8ne190102Ev
+0000000100001138  w    F __TEXT,__text .hidden __ZNSt3__111char_traitsIcE3eofB8ne190102Ev
+0000000100001140  w    F __TEXT,__text .hidden __ZNSt3__19use_facetB8ne190102INS_5ctypeIcEEEERKT_RKNS_6localeE
+000000010000116c  w    F __TEXT,__text .hidden __ZNKSt3__15ctypeIcE5widenB8ne190102Ec
+00000001000011a0  w    F __TEXT,__text .hidden __ZNSt3__18ios_base8setstateB8ne190102Ej
+00000001000011d4  w    F __TEXT,__text .hidden __ZNSt3__118__constexpr_strlenB8ne190102IcEEmPKT_
+00000001000012d0 l     O __TEXT,__gcc_except_tab GCC_except_table5
+0000000100001304 l     O __TEXT,__gcc_except_tab GCC_except_table8
+000000010000131c l     O __TEXT,__gcc_except_tab GCC_except_table35
+000000010000132c l     O __TEXT,__gcc_except_tab GCC_except_table39
+0000000000000000      d  *UND* 
+0000000000000000      d  *UND* /Users/zara/Desktop/cppstuff/program_memeory_segment/
+0000000000000000      d  *UND* main.cpp
+0000000067fe9037      d  *UND* /var/folders/cr/pqmqf1fn5v38vgf81pm0gkhw0000gn/T/main-560f48.o
+00000001000005d0      d  *UND* 
+00000001000005d0      d  *UND* __Z4funcv
+0000000000000004      d  *UND* 
+00000001000005d0      d  *UND* 
+00000001000005d4      d  *UND* 
+00000001000005d4      d  *UND* _main
+0000000000000078      d  *UND* 
+00000001000005d4      d  *UND* 
+000000010000064c      d  *UND* 
+000000010000064c      d  *UND* __ZNSt3__1lsB8ne190102INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+0000000000000048      d  *UND* 
+000000010000064c      d  *UND* 
+0000000100000694      d  *UND* 
+0000000100000694      d  *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ne190102EPFRS3_S4_E
+000000000000002c      d  *UND* 
+0000000100000694      d  *UND* 
+00000001000006c0      d  *UND* 
+00000001000006c0      d  *UND* __ZNSt3__14endlB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+0000000000000054      d  *UND* 
+00000001000006c0      d  *UND* 
+0000000100000714      d  *UND* 
+0000000100000714      d  *UND* __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+00000000000001e4      d  *UND* 
+0000000100000714      d  *UND* 
+00000001000008f8      d  *UND* 
+00000001000008f8      d  *UND* __ZNSt3__111char_traitsIcE6lengthB8ne190102EPKc
+0000000000000024      d  *UND* 
+00000001000008f8      d  *UND* 
+000000010000091c      d  *UND* 
+000000010000091c      d  *UND* __ZNKSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentrycvbB8ne190102Ev
+000000000000001c      d  *UND* 
+000000010000091c      d  *UND* 
+0000000100000938      d  *UND* 
+0000000100000938      d  *UND* __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+0000000000000214      d  *UND* 
+0000000100000938      d  *UND* 
+0000000100000b4c      d  *UND* 
+0000000100000b4c      d  *UND* __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC1B8ne190102ERNS_13basic_ostreamIcS2_EE
+0000000000000034      d  *UND* 
+0000000100000b4c      d  *UND* 
+0000000100000b80      d  *UND* 
+0000000100000b80      d  *UND* __ZNKSt3__18ios_base5flagsB8ne190102Ev
+0000000000000018      d  *UND* 
+0000000100000b80      d  *UND* 
+0000000100000b98      d  *UND* 
+0000000100000b98      d  *UND* __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillB8ne190102Ev
+0000000000000064      d  *UND* 
+0000000100000b98      d  *UND* 
+0000000100000bfc      d  *UND* 
+0000000100000bfc      d  *UND* __ZNKSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEE6failedB8ne190102Ev
+0000000000000020      d  *UND* 
+0000000100000bfc      d  *UND* 
+0000000100000c1c      d  *UND* 
+0000000100000c1c      d  *UND* __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE8setstateB8ne190102Ej
+000000000000002c      d  *UND* 
+0000000100000c1c      d  *UND* 
+0000000100000c48      d  *UND* 
+0000000100000c48      d  *UND* ___clang_call_terminate
+0000000000000010      d  *UND* 
+0000000100000c48      d  *UND* 
+0000000100000c58      d  *UND* 
+0000000100000c58      d  *UND* __ZNKSt3__18ios_base5widthB8ne190102Ev
+0000000000000018      d  *UND* 
+0000000100000c58      d  *UND* 
+0000000100000c70      d  *UND* 
+0000000100000c70      d  *UND* __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5sputnB8ne190102EPKcl
+000000000000003c      d  *UND* 
+0000000100000c70      d  *UND* 
+0000000100000cac      d  *UND* 
+0000000100000cac      d  *UND* __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Emc
+000000000000003c      d  *UND* 
+0000000100000cac      d  *UND* 
+0000000100000ce8      d  *UND* 
+0000000100000ce8      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4dataB8ne190102Ev
+0000000000000028      d  *UND* 
+0000000100000ce8      d  *UND* 
+0000000100000d10      d  *UND* 
+0000000100000d10      d  *UND* __ZNSt3__18ios_base5widthB8ne190102El
+000000000000002c      d  *UND* 
+0000000100000d10      d  *UND* 
+0000000100000d3c      d  *UND* 
+0000000100000d3c      d  *UND* __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
+000000000000004c      d  *UND* 
+0000000100000d3c      d  *UND* 
+0000000100000d88      d  *UND* 
+0000000100000d88      d  *UND* __ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC1B8ne190102INS_18__default_init_tagESA_EEOT_OT0_
+000000000000003c      d  *UND* 
+0000000100000d88      d  *UND* 
+0000000100000dc4      d  *UND* 
+0000000100000dc4      d  *UND* __ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC2B8ne190102INS_18__default_init_tagESA_EEOT_OT0_
+000000000000003c      d  *UND* 
+0000000100000dc4      d  *UND* 
+0000000100000e00      d  *UND* 
+0000000100000e00      d  *UND* __ZNSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EEC2B8ne190102ENS_18__default_init_tagE
+0000000000000014      d  *UND* 
+0000000100000e00      d  *UND* 
+0000000100000e14      d  *UND* 
+0000000100000e14      d  *UND* __ZNSt3__122__compressed_pair_elemINS_9allocatorIcEELi1ELb1EEC2B8ne190102ENS_18__default_init_tagE
+000000000000002c      d  *UND* 
+0000000100000e14      d  *UND* 
+0000000100000e40      d  *UND* 
+0000000100000e40      d  *UND* __ZNSt3__19allocatorIcEC2B8ne190102Ev
+000000000000002c      d  *UND* 
+0000000100000e40      d  *UND* 
+0000000100000e6c      d  *UND* 
+0000000100000e6c      d  *UND* __ZNSt3__116__non_trivial_ifILb1ENS_9allocatorIcEEEC2B8ne190102Ev
+0000000000000014      d  *UND* 
+0000000100000e6c      d  *UND* 
+0000000100000e80      d  *UND* 
+0000000100000e80      d  *UND* __ZNSt3__112__to_addressB8ne190102IKcEEPT_S3_
+0000000000000014      d  *UND* 
+0000000100000e80      d  *UND* 
+0000000100000e94      d  *UND* 
+0000000100000e94      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE13__get_pointerB8ne190102Ev
+0000000000000054      d  *UND* 
+0000000100000e94      d  *UND* 
+0000000100000ee8      d  *UND* 
+0000000100000ee8      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__is_longB8ne190102Ev
+0000000000000034      d  *UND* 
+0000000100000ee8      d  *UND* 
+0000000100000f1c      d  *UND* 
+0000000100000f1c      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE18__get_long_pointerB8ne190102Ev
+0000000000000028      d  *UND* 
+0000000100000f1c      d  *UND* 
+0000000100000f44      d  *UND* 
+0000000100000f44      d  *UND* __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE19__get_short_pointerB8ne190102Ev
+0000000000000028      d  *UND* 
+0000000100000f44      d  *UND* 
+0000000100000f6c      d  *UND* 
+0000000100000f6c      d  *UND* __ZNKSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_E5firstB8ne190102Ev
+0000000000000024      d  *UND* 
+0000000100000f6c      d  *UND* 
+0000000100000f90      d  *UND* 
+0000000100000f90      d  *UND* __ZNKSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EE5__getB8ne190102Ev
+0000000000000014      d  *UND* 
+0000000100000f90      d  *UND* 
+0000000100000fa4      d  *UND* 
+0000000100000fa4      d  *UND* __ZNSt3__114pointer_traitsIPKcE10pointer_toB8ne190102ERS1_
+0000000000000014      d  *UND* 
+0000000100000fa4      d  *UND* 
+0000000100000fb8      d  *UND* 
+0000000100000fb8      d  *UND* __ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC2B8ne190102ERNS_13basic_ostreamIcS2_EE
+0000000000000054      d  *UND* 
+0000000100000fb8      d  *UND* 
+000000010000100c      d  *UND* 
+000000010000100c      d  *UND* __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5rdbufB8ne190102Ev
+0000000000000024      d  *UND* 
+000000010000100c      d  *UND* 
+0000000100001030      d  *UND* 
+0000000100001030      d  *UND* __ZNKSt3__18ios_base5rdbufB8ne190102Ev
+0000000000000018      d  *UND* 
+0000000100001030      d  *UND* 
+0000000100001048      d  *UND* 
+0000000100001048      d  *UND* __ZNKSt3__118_SentinelValueFillINS_11char_traitsIcEEE8__is_setB8ne190102Ev
+0000000000000038      d  *UND* 
+0000000100001048      d  *UND* 
+0000000100001080      d  *UND* 
+0000000100001080      d  *UND* __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ne190102Ec
+0000000000000080      d  *UND* 
+0000000100001080      d  *UND* 
+0000000100001100      d  *UND* 
+0000000100001100      d  *UND* __ZNSt3__118_SentinelValueFillINS_11char_traitsIcEEEaSB8ne190102Ei
+0000000000000020      d  *UND* 
+0000000100001100      d  *UND* 
+0000000100001120      d  *UND* 
+0000000100001120      d  *UND* __ZNKSt3__118_SentinelValueFillINS_11char_traitsIcEEE5__getB8ne190102Ev
+0000000000000018      d  *UND* 
+0000000100001120      d  *UND* 
+0000000100001138      d  *UND* 
+0000000100001138      d  *UND* __ZNSt3__111char_traitsIcE3eofB8ne190102Ev
+0000000000000008      d  *UND* 
+0000000100001138      d  *UND* 
+0000000100001140      d  *UND* 
+0000000100001140      d  *UND* __ZNSt3__19use_facetB8ne190102INS_5ctypeIcEEEERKT_RKNS_6localeE
+000000000000002c      d  *UND* 
+0000000100001140      d  *UND* 
+000000010000116c      d  *UND* 
+000000010000116c      d  *UND* __ZNKSt3__15ctypeIcE5widenB8ne190102Ec
+0000000000000034      d  *UND* 
+000000010000116c      d  *UND* 
+00000001000011a0      d  *UND* 
+00000001000011a0      d  *UND* __ZNSt3__18ios_base8setstateB8ne190102Ej
+0000000000000034      d  *UND* 
+00000001000011a0      d  *UND* 
+00000001000011d4      d  *UND* 
+00000001000011d4      d  *UND* __ZNSt3__118__constexpr_strlenB8ne190102IcEEmPKT_
+0000000000000024      d  *UND* 
+00000001000011d4      d  *UND* 
+0000000000000000      d  *UND* _global_var_initialized
+0000000000000000      d  *UND* _msg
+0000000000000000      d  *UND* _global_var_uninitialized
+0000000000000000      d  *UND* 
+00000001000005d0 g     F __TEXT,__text __Z4funcv
+0000000100000000 g     F __TEXT,__text __mh_execute_header
+0000000100008000 g     O __DATA,__data _global_var_initialized
+0000000100008010 g     O __DATA,__common _global_var_uninitialized
+00000001000005d4 g     F __TEXT,__text _main
+0000000100008008 g     O __DATA,__data _msg
+0000000000000000         *UND* __Unwind_Resume
+0000000000000000         *UND* __ZNKSt3__16locale9use_facetERNS0_2idE
+0000000000000000         *UND* __ZNKSt3__18ios_base6getlocEv
+0000000000000000         *UND* __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEmc
+0000000000000000         *UND* __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+0000000000000000         *UND* __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+0000000000000000         *UND* __ZNSt3__14coutE
+0000000000000000         *UND* __ZNSt3__15ctypeIcE2idE
+0000000000000000         *UND* __ZNSt3__16localeD1Ev
+0000000000000000         *UND* __ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv
+0000000000000000         *UND* __ZNSt3__18ios_base5clearEj
+0000000000000000         *UND* __ZSt9terminatev
+0000000000000000         *UND* __ZdlPv
+0000000000000000         *UND* __Znwm
+0000000000000000         *UND* ___cxa_begin_catch
+0000000000000000         *UND* ___cxa_end_catch
+0000000000000000         *UND* ___gxx_personality_v0
+0000000000000000         *UND* _strlen
